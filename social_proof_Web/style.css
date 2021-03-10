@@ -49,6 +49,7 @@ main{
     top: 0;
     left: 0;
     visibility: hidden;
+    width: 362px;
 }
 .mobile_bottom{
     position: absolute;
@@ -206,8 +207,9 @@ main{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+  
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1425px){
     .content{
         width: 60%;
     }
