@@ -42,6 +42,7 @@ main{
     z-index: 0;
     right: 0;
     bottom: 0;
+    width:1085px;
 }
 .mobile_top{
     position: absolute;
@@ -56,7 +57,8 @@ main{
     z-index: 0;
     right:0;
     bottom: 0;
-    visibility: hidden
+    visibility: hidden;
+    width: 100%;
 }
 .content{
     width: 75%;
@@ -76,7 +78,7 @@ main{
     display: flex;
     justify-content:space-between;
     color: var(--VeryDarkMagenta);
-    padding-top: 2.1875rem;
+    padding-top: 70px;
 }
 .top_left{
     width:  30.3125rem;
@@ -102,7 +104,7 @@ main{
 }
 .top_right{
     width: 34.25rem;
-    height: 13.75rem;
+    height: 235px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -153,12 +155,12 @@ main{
     margin-top: 3%;
 }
 .buyer_verified{
-    width: 22rem;
+    width: 345px;
     height: auto;
     max-height: 14.375rem;
     background-color: var(--VeryDarkMagenta);
     color: var(--White);
-    padding: 1.875rem 1.875rem;
+    padding: 1.875rem 27px;
     border-radius: 6px;
     
 }
